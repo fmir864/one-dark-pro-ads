@@ -1,0 +1,26 @@
+{
+    "name": "one-dark-pro-ads",
+    "displayName": "One Dark Pro",
+    "description": "One Dark Pro theme for Azure Data Studio",
+    "publisher": "fmir864",
+    "author": "FM Irshad",
+    "repository": "https://github.com/fmir864/one-dark-pro-ads",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0",
+        "azdata": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "assets/icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "One Dark Pro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/one-dark-pro-color-theme.json"
+            }
+        ]
+    }
+}
